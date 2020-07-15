@@ -1,0 +1,66 @@
+body {
+    /* background-color: #f0f0f0; */
+    background-image: url(../../assets/hawaii.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.info-form {
+    height: 65vh;
+    width: 40vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem 0;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+select {
+    width: 19rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    
+}
+
+textarea {
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+button {
+    background-color: #5969d0;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+h2 {
+    color: #FFF;
+    position: relative;
+    top: 5rem;
+    left: 6rem;
+    width: fit-content;
+    font-size: 7rem;
+}
